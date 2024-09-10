@@ -1,0 +1,49 @@
+table {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: #f9f9f9; 
+}
+
+.boardList {
+    padding: 20px;
+    border-radius: 8px; 
+}
+
+h2 {
+    color: #6c5b7b; 
+    margin-bottom: 20px;
+}
+
+.boardList thead {
+    background-color: #d3c6e1;
+}
+
+.boardList th, td {
+    border: 1px solid #e0d6e1;
+    padding: 12px;
+}
+.boardList th {
+    background-color: #f0e6f6; 
+    color: #4a3c5c;
+}
+
+.boardList a {
+    color: #8a77e9; 
+    text-decoration: none;
+}
+.boardList a:hover {
+    text-decoration: underline;
+}
+.boardList button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b9a3d3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
