@@ -44,8 +44,12 @@ const BoardDetail = () => {
                 </tbody>
             </table>
 
-            <Link to={'/boardModify'}><button>수정</button></Link>
+            <div className='buttons'>
+            <Link to={'/boardList'}><button>메인</button></Link>
+            <Link to={`/boardModify/${id}`}><button>수정</button></Link>
             <button>삭제</button>
+           
+            </div>
         </div>
        
     );

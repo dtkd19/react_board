@@ -5,6 +5,8 @@ import './board.css';
 
 
 const BoardList = () => {
+
+
     return (
         <div className='boardList'>
             <h2> Board List Page </h2>
@@ -18,8 +20,10 @@ const BoardList = () => {
                     </tr>
                 </thead>
                 <tbody>
+
                 {
                      boardList.map(b => (
+                        
 
                     <tr key={b.id}>
                     <td>{b.id}</td>

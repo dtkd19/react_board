@@ -47,3 +47,172 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.boardDetail thead {
+    background-color: #d3c6e1;
+}
+
+.boardDetail th, td {
+    border: 1px solid #e0d6e1;
+    padding: 12px;
+}
+.boardDetail th {
+    background-color: #f0e6f6; 
+    color: #4a3c5c;
+}
+
+.boardDetail button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b9a3d3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+ .boardDetail table{
+    margin-top: 30px;
+    width: 700px;
+ }
+
+ .boardDetail table th{
+    width: 100px;
+ }
+
+ .boardDetail table td{
+    width: 600px;
+ }
+
+ .boardDetail .buttons{
+    margin-left: 495px;
+ }
+
+ .boardCreate {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f0e6f6; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.boardCreate h2 {
+    color: #6c5b7b; 
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.boardCreate div{
+    margin-bottom: 30px;
+}
+
+.boardCreate input {
+    padding: 10px;
+    border: 1px solid #e0d6e1; 
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.boardCreate .titleInput{
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.boardCreate .nameInput{
+    width: 20%;
+    margin-left: 10px;
+}
+
+.boardCreate textarea {
+    width: 100%;
+    height: 150px; 
+    padding: 10px;
+    border: 1px solid #e0d6e1; 
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.boardCreate button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #b9a3d3; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px; 
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8a77e9; 
+}
+
+.boardModify {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f0e6f6; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.boardModify h2 {
+    color: #6c5b7b; 
+    margin-bottom: 20px; 
+}
+
+.boardModify div {
+    margin-bottom: 30px;
+}
+
+.boardModify input {
+    padding: 10px;
+    border: 1px solid #e0d6e1; 
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.boardModify .titleInput {
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.boardModify .nameInput {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.boardModify textarea {
+    width: 100%;
+    height: 150px; 
+    padding: 10px;
+    border: 1px solid #e0d6e1; 
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.boardModify button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #b9a3d3; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px; 
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8a77e9; 
+}

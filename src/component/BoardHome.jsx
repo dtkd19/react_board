@@ -17,7 +17,7 @@ const BoardHome = () => {
             <Route path="/boardList" element= {<BoardList/>} />
             <Route path="/boardDetail/:id" element= {<BoardDetail/>} />
             <Route path="/boardCreate/" element= {<BoardCreate/>} />
-            <Route path="/boardModify/" element= {<BoardModify/>} />
+            <Route path="/boardModify/:id" element= {<BoardModify/>} />
             
             </Routes>
             </BrowserRouter>
